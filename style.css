@@ -1,3 +1,13 @@
 h1{
     color: grey;
 }
+
+.links {
+    display: inline;
+    width: 16px;
+    font-weight: 600;
+    text-align: right;
+    color: darkcyan;
+    padding: 24px;
+
+}
