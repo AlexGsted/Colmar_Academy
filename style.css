@@ -1,13 +1,85 @@
 h1{
     color: grey;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+header {
+    height: 64px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 24px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+
 }
 
 .links {
-    display: inline;
-    width: 16px;
-    font-weight: 600;
-    text-align: right;
+    display: inline-flex;
+    align-items: center;
+    padding-right: 24px;
     color: darkcyan;
-    padding: 24px;
+}
 
+.menu-option {
+    padding: 0px 0px 0px 16px;
+}
+
+h1 b {
+    color: black;
+    font-weight: 900;
+}
+
+.logo {
+    display: inline-flex;
+    padding: 0 0 0 24;
+    align-items: center;
+}
+
+.welcome {
+    display: inline-flex;
+    color: rgb(104, 114, 114);
+    background-color: rgb(204, 199, 199);
+}
+
+.banner-images img {
+    max-width: 60%;
+    display: flex;
+    padding: 32px 24px 32px 24px;
+}
+
+.sign-in {
+    display: block;
+    justify-content: center;
+    font-weight: 700;
+    padding: 24px;
+}
+
+.sign-in h3 {
+    font-weight: 300;
+}
+
+.sign-in a {
+    justify-content: center;
+    background-color: rgb(43, 43, 44);
+    color: ivory;
+    display: flexbox;
+    padding: 8px 100px 8px 100px;
+}
+
+.information img {
+    max-width: 60%;
+}
+
+.orientation {
+    display: flexbox;
+    align-content: right;
+}
+
+.orientation img {
+    max-width: 35%;
 }
